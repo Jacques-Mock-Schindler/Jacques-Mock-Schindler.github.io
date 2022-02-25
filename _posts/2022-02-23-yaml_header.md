@@ -99,6 +99,8 @@ kann angegeben werden, in welche Sprache die LaTEX Standardtexte
 
 Falls man die Titel gerne nummeriert hat, ist der Pandoc-Befehl
 anzupassen. Er muss dann den Parameter `--number-sections` beinhalten.
+Alternativ kann im YAML-Header auch die Option `numbersections: true`
+gesetzt werden.
 
 ### Seitenränder
 

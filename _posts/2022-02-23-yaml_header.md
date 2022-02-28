@@ -44,8 +44,9 @@ Kommentare werden mit einer Raute gekennzeichnet.
 
 Zu den Elementen des Headers im Einzelnen:
 
-* *Angaben für das Deckblatt*: Diese Angaben sind wahrscheinlich
-  selbsterklärend.
+* *Angaben für das Deckblatt*: Diese Angaben sind im Grossen und Ganzen
+  selbsterklärend. Ein besonderes Augenmerk ist allerdings auf die
+  Angaben zum Autor zu richten.
 * *Angaben zum Inhalt und zur Darstellung der Bibliographie*: Der
   Eintrag `bibliography` gibt an, in welcher Datei die bibliographischen
   Angaben abgespeichert sind. Wie eine solche Datei erstellt wird, ist

@@ -122,6 +122,32 @@ Rand oben an der Seite auf 4cm und der untere Rand auf 3cm festgelegt.
 Die Werte sind beliebig wählbar und könnten auch in anderen
 Masseinheiten angegeben werden.
 
+### Kopf- und/oder Fusszeilen
+
+Gelegentlich müssen Vorgaben bezüglich Kopf- und/oder Fusszeilen
+eingehalten werden. Dafür eignet sich das Packet `fancyhdr`. Mit seiner
+Hilfe kann im YAML-Header die Darstellung der Kopf- und/oder Fusszeile
+gesteuert werden.
+
+```yaml
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{links}
+\chead{mitte}
+\rhead{rechts}
+\lfoot{links}
+\cfoot{mitte}
+\rfoot{rechts}
+
+```
+
+Der Befehl `\pagestyle{fancy}` überschreibt das Standardseitenlayout. Mit den
+Befehlen `\lhead{gewünschter Text}` etc. können dann die gewünschten Angaben an der
+entsprechenden Stelle positioniert werden. Es müssen dafür nur jene
+Positionen angegeben werden, an denen man wirklich etwas einfügen will.
+Soll beispielsweise in der Mitte der Kopfzeile nichts stehen, ist der
+Befehl `\chead{...}` wegzulassen.
+
 ### Mehrspaltiges Layout
 
 Es ist möglich, den Text in ein mehrspaltiges Layout zu setzen. Dazu

@@ -25,3 +25,14 @@ oder man kann sie im Zusammenspiel mit einem entfernten Server
 verwenden. Für die Zusammenarbeit in einer Gruppe muss ein entfernter
 Server verwendet werden. Dafür gibt es verschiedene mögliche Lösungen.
 Hier wird die Lösung mit Hilfe von Github beschrieben.
+
+## Voraussetzungen
+
+Damit Git bzw. Github für die Versionierung von Texten verwendet werden
+kann, muss der entsprechende Text als reiner Text abgespeichert werden.
+Mögliche Formate dafür sind beispielsweise LaTEX oder Markdown.
+
+Ich beschreibe hier den Workflow unter Verwendung von Visual Studio Code
+mit den entsprechenden Erweiterungen als Texteditor. Das heisst, auf dem
+Computer muss Visual Studio Code installiert sein. Zusätzlich braucht es
+eine lokale Installation von Git. Ausserdem braucht man ein Github Konto.

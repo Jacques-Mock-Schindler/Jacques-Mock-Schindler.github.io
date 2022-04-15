@@ -35,4 +35,20 @@ Mögliche Formate dafür sind beispielsweise LaTEX oder Markdown.
 Ich beschreibe hier den Workflow unter Verwendung von Visual Studio Code
 mit den entsprechenden Erweiterungen als Texteditor. Das heisst, auf dem
 Computer muss Visual Studio Code installiert sein. Zusätzlich braucht es
-eine lokale Installation von Git. Ausserdem braucht man ein Github Konto.
+eine lokale Installation von Git. Ausserdem braucht man ein Github
+Konto.
+
+## Charakteristik des Github Workflows
+
+In Github wird nicht nur die Version des Textes kontrolliert, es können
+darüber hinaus auch Varianten des Textes erstellt werden. Der
+Git-Begriff für solche Varianten ist *Branch*.
+
+Wenn ein neues Github Repository erstellt wird, richtet Github
+automatisch den *Branch* `main` ein. In diesem *Branch* liegt der Text
+als Original vor. Wenn eine Variante des Originals erstellt werden soll,
+kann ein neuer *Branch* erstellt werden. Der Name dieses *Branches* kann
+dabei frei gewählt werden. Für die Redaktion der Textvariante wird nun
+in diesem *Branch* gearbeitet. Wenn die Textvariante fertig ist, kann
+Sie mit dem Original verglichen werden und dann ganz oder Teilweise
+übernommen werden.
